@@ -20,18 +20,18 @@
     position:absolute;
     top:3rem;
     left:50%;
-    transform:translateX(-50%);
+    transform: translate(-50%);
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
-    padding: 0.5rem 3rem;
+    padding:0.5rem 3rem;
     /* text-align:center; */
 
 }
 
 .tic-tac-toe{
-    width:90%;
-    max-width:20rem;
+    width: 90%;
+    max-width: 20rem;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -43,9 +43,9 @@
 
 
 .box{
-    position:relative;
-    width:100%;
-    aspect-ratio: 1/1;
+    position: relative;
+    width: 100%;
+    aspect-ratio:1/1;
     cursor: pointer;
     font-size: 3rem;
     color:white;
@@ -68,17 +68,17 @@
 }
 
 .btn{
-    color:white;
-    position: absolute;
-    bottom:3rem;
+    color: white;
+    position:absolute;
+    bottom: 3rem;
     left:50%;
-    transform:translateX(-50%);
+    transform: translate(-50%);
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.25);
     padding: 0.5rem 2rem;
     cursor:pointer;
-    display: none;
+    display:none;
 }
 
 .btn.active{

@@ -67,7 +67,7 @@ function checkGameOver() {
                 })
 
                 //now we know X/O is a winner
-                boxes[position[0]].classList.add("win");
+                boxes[position[0]].classList.add("win")
                 boxes[position[1]].classList.add("win");
                 boxes[position[2]].classList.add("win");
             }
